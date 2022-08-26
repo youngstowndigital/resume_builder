@@ -1,0 +1,20 @@
+service: resume-builder-api
+
+plugins:
+  - serverless-offline
+
+provider:
+  name: aws
+  runtime: nodejs14.x
+  stage: dev
+  region: us-east-1
+
+functions:
+  createResume:
+    handler: createResume.handler
+    memorySize: 128
+    description: Create resume
+    events:
+      - http:
+          path: resume
+          method: post
