@@ -1,0 +1,20 @@
+{
+  "name": "resume_builder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "client": "cd client && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/youngstowndigital/resume_builder.git"
+  },
+  "author": "Youngstown Digital",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/youngstowndigital/resume_builder/issues"
+  },
+  "homepage": "https://github.com/youngstowndigital/resume_builder#readme"
+}
